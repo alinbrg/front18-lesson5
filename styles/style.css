@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: blue;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.images-block img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+nav li{
+	width: 100px;
+}
+
+.main-img{
+	width: 900px;
+	height: 500px;
+	object-fit: cover;
+}
