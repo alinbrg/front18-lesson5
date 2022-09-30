@@ -1,29 +1,82 @@
-*{
+/*@import url("https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");*/
+
+/*reset*/
+/**{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-header{
-	background-color: blue;
-}
+
 ul{
 	list-style-type: none;
 }
 a{
-	color: white;
 	text-decoration: none;
+}*/
+
+/*header styles*/
+
+.text-blue{
+	color: blue;
+}
+
+header{
+	background-color: blue;
+}
+
+
+
+nav li{
+	width: 100px;
+	/*margin: 30px;*/
+}
+
+.inline{
+	/*display: inline;*/
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+nav, nav > ul, nav li{
+	/*display: inline;*/
+	display: inline-block;
+}
+
+nav li a{
+	color: white;
+	/*font-family: "ALK Rex Bold", sans-serif;*/
+	font-family: 'Bold';
+	font-size: 24px;
+}
+
+nav, .logo{
+	vertical-align: top;
+}
+/*section styles*/
+section{
+	width: 1000px;
+	margin: auto;
+	border: 1px solid;
+}
+.main-img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	margin: a/*uto;
+	display: block;*/
 }
 .images-block img{
 	width: 200px;
 	height: 200px;
 	object-fit: cover;
 }
-nav li{
-	width: 100px;
-}
 
-.main-img{
-	width: 900px;
-	height: 500px;
-	object-fit: cover;
+.text-block p{
+	margin-bottom: 20px;
+	width: 300px;
+	vertical-align: middle;
+	font-family: 'Alkalami';
+	font-size: 20px;
 }

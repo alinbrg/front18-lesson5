@@ -4,22 +4,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>lesson 5</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<!-- link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css"> -->
+	
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet"> -->
+
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 	<header>
-		<a href="#">
-			<img src="images/logo.svg">
+		<a class="logo" href="#">
+			<img src="images/logo.svg" alt="logo">
 		</a>
-		<nav>
-			<ul>
-				<li>
+		<nav class="inline">
+			<ul class="inline">
+				<li class="inline">
+					<a href="#">main</a>
+				</li >
+				<li class="inline">
 					<a href="#">main</a>
 				</li>
-				<li>
-					<a href="#">main</a>
-				</li>
-				<li>
+				<li class="inline">
 					<a href="#">main</a>
 				</li>
 			</ul>
@@ -28,12 +36,28 @@
 	<section>
 		<img class="main-img" src="images/post-3.jpg" alt="main image">
 		<h2>this is title</h2>
+
 		<div class="images-block">
 			<img src="images/post-1.jpg" alt="image">
 			<img src="images/post-2.jpg" alt="image">
 			<img src="images/post-3.jpg" alt="image">
 			<img src="images/post-1.jpg" alt="image">
 			<img src="images/post-2.jpg" alt="image">
+		</div>
+		<div class="text-block">
+			<p class="text-blue aboub-descr inline-block">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			</p>
+			<p class="inline-block">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
 		</div>
 	</section>
 </body>

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/alk-rex-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-rex-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-rex-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-rex-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-rex-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-rex-bold-webfont.svg#alk_rexbold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alkalami';
+    src: url('../fonts/Alkalami-Regular.eot');
+    src: url('../fonts/Alkalami-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Alkalami-Regular.woff2') format('woff2'),
+        url('../fonts/Alkalami-Regular.woff') format('woff'),
+        url('../fonts/Alkalami-Regular.ttf') format('truetype'),
+        url('../fonts/Alkalami-Regular.svg#Alkalami-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
